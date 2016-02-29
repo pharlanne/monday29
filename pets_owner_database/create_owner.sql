@@ -1,0 +1,6 @@
+CREATE TABLE owner(
+id SERIAL8 PRIMARY KEY,
+name VARCHAR(255),
+age INT2,
+sex CHAR(1)
+);

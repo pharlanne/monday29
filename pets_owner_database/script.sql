@@ -1,0 +1,19 @@
+-- CREATE TABLE owner(
+-- id SERIAL8 PRIMARY KEY,
+-- name VARCHAR(255),
+-- age INT2,
+-- sex CHAR(1)
+-- );
+-- INSERT INTO owner(name, age, sex) VALUES('kat', 18,'F');
+-- INSERT INTO owner(name, age, sex) VALUES('sam', 24,'F');
+-- INSERT INTO owner (name,age) VALUES ('valerie',22);
+-- INSERT INTO owner (name,age) VALUES ('valerie',23);
+-- INSERT INTO owner (age) VALUES ('123');
+-- INSERT INTO owner(age) VALUES ('cats');
+-- INSERT INTO owner (sex) VALUES('Female');
+-- UPDATE owner SET sex ='m';
+-- UPDATE owner SET sex = 'f' WHERE name = 'valerie';
+-- UPDATE owner SET sex ='m' WHERE name = 'valerie' AND age =22;
+-- UPDATE owner SET sex = 'm' WHERE name = 'valerie' AND age = 22;
+-- DELETE FROM owner WHERE name = 'sam';
+-- UPDATE owner SET age = 24 WHERE sex = 'f' AND name = 'valerie' AND age =23;

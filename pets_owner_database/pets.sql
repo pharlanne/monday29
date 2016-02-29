@@ -1,0 +1,22 @@
+-- CREATE TABLE pets(
+--   id SERIAL8,
+--   name VARCHAR(255),
+--   owner  VARCHAR(255),
+--   date_of_birth DATE,
+--   date_of_death DATE
+--   );
+-- INSERT INTO pets(name, owner, date_of_birth) VALUES ('Flynn', 'marc','12 Jan 2004');
+
+-- INSERT INTO pets(name, owner, date_of_birth) VALUES ('Barnaby', 'valerie','12 Jun 2015');
+-- DROP TABLE pets;
+-- CREATE TABLE pets(
+--   id SERIAL8 PRIMARY KEY,
+--   name VARCHAR(255) not null,
+--   owner VARCHAR(255) not null,
+--   date_of_birth DATE not null default '1970-01-01',
+--   date_of_death DATE check (date_of_death>= date_of_birth)
+--   );
+-- ALTER TABLE pets
+--   ADD CONSTRAINT unique_pet_name_owner UNIQUE(name, owner);
+-- INSERT INTO pets (name, owner, date_of_birth,date_of_death) VALUES ('kakashi', 'valerie','2011-09-01','2012-01-10');
+-- INSERT INTO pets (name, owner, date_of_birth,date_of_death) VALUES ('kakashi', 'valerie','2011-09-01','2011-01-10');
